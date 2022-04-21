@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25bc7f93-31f1-43c7-bd9a-30c736a7b182" name="Changes" comment="" />
+    <list default="true" id="25bc7f93-31f1-43c7-bd9a-30c736a7b182" name="Changes" comment="update index home">
+      <change afterPath="$PROJECT_DIR$/content/home.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +50,30 @@
       <workItem from="1650425485679" duration="197000" />
       <workItem from="1650425691319" duration="653000" />
       <workItem from="1650515717956" duration="158000" />
+      <workItem from="1650517965808" duration="1428000" />
     </task>
+    <task id="LOCAL-00001" summary="update index home">
+      <created>1650518207404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650518207404</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update index home">
+      <created>1650518249301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650518249301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update index home">
+      <created>1650518294134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650518294135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,5 +90,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update index home" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index home" />
   </component>
 </project>
