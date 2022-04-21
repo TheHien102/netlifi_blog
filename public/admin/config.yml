@@ -21,10 +21,10 @@ collections:
               - { label: "Name", name: "name", widget: "string"}
               - { label: "Description", name: "description", widget: "text"}
           - label: "Featured Image"
-              name: "avatar"
-              widget: "image"
-              choose_url: true
-              default: "/img/Smile_Avatar.jpg"
-              media_library:
-                config:
-                  multiple: true
+            name: "avatar"
+            widget: "image"
+            choose_url: true
+            default: "/img/Smile_Avatar.jpg"
+            media_library:
+              config:
+                multiple: true
