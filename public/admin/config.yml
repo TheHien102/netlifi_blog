@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/img
-public_folder: img
+public_folder: /img
 collections:
   - name: "pages"
     label: "Pages"
@@ -23,8 +23,3 @@ collections:
           - label: "Featured Image"
             name: "avatar"
             widget: "image"
-            choose_url: true
-            default: "/img/Smile_Avatar.jpg"
-            media_library:
-              config:
-                multiple: true

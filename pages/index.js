@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {attributes, react as HomeContent} from '../content/home.md';
-// import avatar from '../public/img/Slime_Avatar.jpg';
+// import avatar1 from '../public/img/Slime_Avatar.jpg';
 import Image from 'next/image';
 
 export default class Home extends Component {
@@ -19,7 +19,7 @@ export default class Home extends Component {
                         </li>
                     ))}
                 </ul>
-                {/*<Image src={avatar} alt={'avatar'} />*/}
+                <Image src={avatar} alt={'avatar'} layOut={'fill'} width={500} height={500}/>
             </article>
         )
     }
