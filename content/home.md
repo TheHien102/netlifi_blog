@@ -13,3 +13,5 @@ avatar: /img/Smile_Avatar.jpg
 Welcome to my awesome page about cats of the hiển
 
 This page is built with NextJS, and content is managed in Netlify CMS
+
+![](/img/1.jpg)
