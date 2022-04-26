@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25bc7f93-31f1-43c7-bd9a-30c736a7b182" name="Changes" comment="add posts page">
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+    <list default="true" id="25bc7f93-31f1-43c7-bd9a-30c736a7b182" name="Changes" comment="fix bug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <workItem from="1650525011767" duration="2556000" />
       <workItem from="1650589849825" duration="2091000" />
       <workItem from="1650902698225" duration="3923000" />
-      <workItem from="1650971205579" duration="1423000" />
+      <workItem from="1650971205579" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="update index home">
       <created>1650518207404</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650972938999</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix bug">
+      <created>1650973254188</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650973254188</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +155,7 @@
     <MESSAGE value="fix bug eslint" />
     <MESSAGE value="add image" />
     <MESSAGE value="add posts page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add posts page" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
 </project>

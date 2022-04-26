@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: TheHien102/netlifi_blog # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: main # Branch to update ( # Branch to update (optional; defaults to master)
 media_folder: "public/img" # Where media files will be stored
 public_folder: "/img" # Where the media files can be accesed from the server
 publish_mode: editorial_workflow # For Drafts
