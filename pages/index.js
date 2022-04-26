@@ -1,26 +1,47 @@
-import {Component} from 'react'
-import {attributes, react as HomeContent} from '../content/home.md';
-// import avatar1 from '../public/img/Slime_Avatar.jpg';
-import Image from 'next/image';
+import fs from 'fs'
+import matter from 'gray-matter'
+import Link from 'next/link'
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 
-export default class Home extends Component {
-    render() {
-        let {title, date, cats, avatar} = attributes;
-        return (
-            <article>
-                <h1>{title}</h1>
-                <p>{date}</p>
-                <HomeContent/>
-                <ul>
-                    {cats.map((cat, k) => (
-                        <li key={k}>
-                            <h2>{cat.name}</h2>
-                            <p>{cat.description}</p>
-                        </li>
-                    ))}
-                </ul>
-                <Image src={avatar} alt={'avatar'} layOut={'fill'} width={500} height={500}/>
-            </article>
-        )
+export default function Home({ blogs }) {
+    return (<div className={styles['container']}>
+        <Head>
+            <title>Demo Blog</title>
+        </Head>
+        <h1 className={styles['header']}>Welcome to my blog</h1>
+        <p className={styles['subtitle']}>This is a subtitle idk what to type here</p>
+        <ul className={styles['blog-list']}>
+            {blogs.map(blog => (
+                <li key={blog.slug}>
+                    <Link href={`/post/${blog.slug}`}>
+                        <a>{blog.date}:{blog.title}</a>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    </div>)
+}
+
+export async function getStaticProps() {
+    // List of files in blgos folder
+    const filesInBlogs = fs.readdirSync('./content/posts')
+
+    // Get the front matter and slug (the filename without .md) of all files
+    const blogs = filesInBlogs.map(filename => {
+        const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
+        const matterData = matter(file)
+
+        return {
+            ...matterData.data, // matterData.data contains front matter
+            slug: filename.slice(0, filename.indexOf('.'))
+        }
+    })
+
+    return {
+        props: {
+            blogs
+        }
     }
+
 }
