@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, {Head, Html, Main, NextScript} from 'next/document'
 
 class MyDocument extends Document {
     render() {
@@ -6,11 +6,10 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     {/* Netlify Widget */}
-                    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
                 </Head>
                 <body>
-                <Main />
-                <NextScript />
+                <Main/>
+                <NextScript/>
                 <script dangerouslySetInnerHTML={{
                     __html: `
               if (window.netlifyIdentity) {
@@ -22,7 +21,8 @@ class MyDocument extends Document {
                   }
                 });
               }
-          `}}/>
+          `
+                }}/>
                 </body>
             </Html>
         )
