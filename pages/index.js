@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home({ blogs }) {
+export default function Home({blogs}) {
     return (<div className={styles['container']}>
         <Head>
             <title>Demo Blog</title>
@@ -14,7 +14,7 @@ export default function Home({ blogs }) {
         <ul className={styles['blog-list']}>
             {blogs.map(blog => (
                 <li key={blog.slug}>
-                    <Link href={`/post/${blog.slug}`}>
+                    <Link href={`/blog/${blog.slug}`}>
                         <a>{blog.date}:{blog.title}</a>
                     </Link>
                 </li>
@@ -25,11 +25,11 @@ export default function Home({ blogs }) {
 
 export async function getStaticProps() {
     // List of files in blgos folder
-    const filesInBlogs = fs.readdirSync('./content/posts')
+    const filesInBlogs = fs.readdirSync('./content/blogs')
 
     // Get the front matter and slug (the filename without .md) of all files
     const blogs = filesInBlogs.map(filename => {
-        const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
+        const file = fs.readFileSync(`./content/blogs/${filename}`, 'utf8')
         const matterData = matter(file)
 
         return {

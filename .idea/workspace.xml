@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bc7f93-31f1-43c7-bd9a-30c736a7b182" name="Changes" comment="fix bug">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blogs/the-hien-ne.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/home.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blogs/my-first-blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/post/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/post/[slug].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +61,8 @@
       <workItem from="1650525011767" duration="2556000" />
       <workItem from="1650589849825" duration="2091000" />
       <workItem from="1650902698225" duration="3923000" />
-      <workItem from="1650971205579" duration="2250000" />
+      <workItem from="1650971205579" duration="3469000" />
+      <workItem from="1650981395007" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="update index home">
       <created>1650518207404</created>
@@ -130,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650973254188</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix bug">
+      <created>1650973942571</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650973942571</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
